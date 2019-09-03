@@ -25,6 +25,12 @@ font-family: 'Lato', sans-serif;
   text-decoration: none;
 }
 
+h2{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+}
 /*
  * Custom colors
  */
@@ -32,6 +38,14 @@ font-family: 'Lato', sans-serif;
  .bg-pink {
   background-color: #FF5E9E;
   color: white;
+ }
+ .bg-grey {
+   background-color: #333333;
+   color: white;
+ }
+ .bg-grey a {
+   color: white;
+   text-decoration: underline;
  }
  .center {
    text-align: center;

@@ -7,13 +7,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 
     <!--- Custom Styles --->
     <link rel="stylesheet" href="css/style.css">
     <title>Rachel VanBoening's Portfolio Site</title>
 
     <!--- Javascript--->
-    <script src="js/script.js"></script>
+
 
 
   </head>
@@ -22,9 +23,9 @@
   <nav class="site-header sticky-top py-1">
     <div class="container d-flex flex-column flex-md-row justify-content-between">
       <a class="py-2 d-none d-md-inline-block" href="#about">About</a>
-      <a class="py-2 d-none d-md-inline-block" href="#graphics">Graphics</a>
+      <a class="py-2 d-none d-md-inline-block" href="#graphics">Logos</a>
       <a class="py-2 d-none d-md-inline-block" href="#web">Web Design</a>
-      <a class="py-2 d-none d-md-inline-block" href="#resume">Resume</a>
+      <a class="py-2 d-none d-md-inline-block" href="images/VanBoeningResumeSep2019.pdf">Resume</a>
     </div>
   </nav>
   <!--- Banner --->
@@ -38,7 +39,7 @@
   </div>
 
     <!-- About Section --->
-    <div id="about" class="container-fluid py-5">
+    <div id="about" class="container-fluid py-5 bg-grey">
       <div class="row justify-content-center">
         <div class="col col-6 center">
           <p>Hi, I'm Rachel and this is a picture of me.</p>
@@ -46,35 +47,46 @@
           <p>I love design. I studied graphic design, advertising, and development at the University of Nebraska at Kearney and Omaha Code School. I thrive working on marketing teams, strategizing, and executing marketing campaigns. I am always creating, ever loving, and often eating. Check out some of my work and contact me if you have any questions, comments, or concerns. Have a magical day.</p>
       </div>
     </div>
+  </div>
 
-<!--- Graphics --->
-<div id="graphics" class="container-fluid py-5">
-    <div class="row justify-content-md-center">
-      <div class="col col-md-2">
-        1 of 3
-      </div>
-      <div class="col-md-auto">
-        Variable width content
-      </div>
-      <div class="col col-lg-2">
-        3 of 3
-      </div>
-    </div><!--- end of row --->
-</div><!--- end of container --->
 
-<div class="container">
-  <div class="row">
-    <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-      <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded">
+<!--- Graphics--->
+<div id="graphics" class="container py-5">
+  <h2 class="center">Logos</h2>
+  <div class="row r-gallery">
+    <a href="images/1-alore.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="images/1-alore.png" class="img-fluid rounded">
     </a>
-    <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-      <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid rounded">
+    <a href="images/1-elevate.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="images/1-elevate.png" class="img-fluid rounded">
     </a>
-    <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-      <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid rounded">
+    <a href="images/1-giesting.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="images/1-giesting.png" class="img-fluid rounded">
+    </a>
+    <a href="images/1-glenwood.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="images/1-glenwood.png" class="img-fluid rounded">
+    </a>
+    <a href="images/1-mosaic.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="images/1-mosaic.png" class="img-fluid rounded">
+    </a>
+    <a href="images/1-HA.png" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="images/1-HA.png" class="img-fluid rounded">
     </a>
   </div>
 </div>
+
+<div>
+
+</div>
+<!--- Graphics--->
+<!--- Graphics--->
+  <div class="container-fluid bg-grey p-5 center">
+    <h2 class="pb-2">Websites</h2>
+      <a href="https://www.columncapital.com/" target="_blank"><p>Column Captial Wealth Management</p></a>
+      <a href="http://aloresolutions.com/" target="_blank"><p>Alore HR Solutions</p></a>
+      <a href="https://www.myagencyportal.com/sample-agency/" target="_blank"><p>My Agency Portal</p></a>
+      <a href="https://www.meathwealthadvisors.com/" target="_blank"><p>Meath Advisors Alliance</p></a>
+  </div>
 
 
     <!-- Optional JavaScript -->
@@ -82,8 +94,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js" crossorigin="anonymous"></script>
 
-
-
+    <script>
+        baguetteBox.run('.r-gallery');
+    </script>
   </body>
 </html>
